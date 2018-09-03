@@ -115,3 +115,26 @@ small {
     padding-bottom: 8rem;
   }
 }
+
+.block {
+  @extend %clearfix;
+}
+
+.child {
+  display: block;
+  float: left;
+  @extend %base-horizontal-padding;
+  @extend %base-vertical-padding;
+}
+
+.block-valign {
+  @extend .block;
+  display: table;
+  width: 100%;
+}
+
+.child-valign {
+  @extend .child;
+  display: table-cell;
+  vertical-align: middle;
+}

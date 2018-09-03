@@ -7,6 +7,14 @@ $susy: (
   'container-spread': 'narrow',
 );
 
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 /* media queries */
 @mixin iPhoneWidth {
   // portrait width less 16px
