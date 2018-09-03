@@ -12,6 +12,10 @@ $susy: (
   // portrait width less 16px
   @media (min-width: 349px) { @content; }
 }
+@mixin iPhoneLandscapeWidth {
+  // landscape width less 16px
+  @media (min-width: 651px) { @content; }
+}
 @mixin iPadWidth {
   // portrait width less 16px
   @media (min-width: 752px) { @content; }

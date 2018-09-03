@@ -27,14 +27,9 @@ body {
 }
 
 $vertical-rhythm: 2rem;
-$edge-padding: 2rem;
 $p-line-height: 1.5;
 $h1-line-height: 1.15;
 $text-column-width: 50rem;
-
-%text-column {
-  max-width: 50rem;
-}
 
 p {
   font-family: $serif;
@@ -74,11 +69,7 @@ small {
   font-family: $sans-serif;
 }
 
-.block {
-  padding: $vertical-rhythm 0;
-}
-
-.has-dark-background {
+%has-dark-background {
   color: $white;
 
   a {
@@ -90,21 +81,37 @@ small {
   }
 }
 
-.content {
-  padding: 0 $edge-padding;
+%base-horizontal-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @include iPhoneWidth {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @include iPadProWidth {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
-.is-centered-column {
-  max-width: $text-column-width;
-  margin-left: 0;
-  margin-right: 0;
-}
+%base-vertical-padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
-.has-centered-text {
-  text-align: center;
-}
+  @include iPadWidth {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 
-.site-name {
-  font-weight: bold;
-  color: $black;
+  @include iPadProWidth {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  @include MacBookAirWidth {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
 }
