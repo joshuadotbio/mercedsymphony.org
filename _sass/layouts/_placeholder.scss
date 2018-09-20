@@ -28,7 +28,7 @@ body {
   margin-right: auto;
   text-align: left;
   font-size: 1.2rem;
-  @include iPadWidth {
+  @include iPhoneLandscapeWidth {
     text-align: justify;
   }
 }
