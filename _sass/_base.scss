@@ -97,8 +97,8 @@ small {
 }
 
 %base-vertical-padding {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
   @include iPadWidth {
     padding-top: 4rem;
@@ -122,7 +122,6 @@ small {
 
 .child {
   display: block;
-  float: left;
   @extend %base-horizontal-padding;
   @extend %base-vertical-padding;
 }
