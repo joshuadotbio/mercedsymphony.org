@@ -18,7 +18,7 @@ body {
   font-family: $sans-serif;
 
   @include iPhoneWidth {
-    font-size: 125%;
+    font-size: 100%;
   }
 
   @include iPadWidth {

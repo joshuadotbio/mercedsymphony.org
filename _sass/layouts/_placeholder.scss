@@ -26,6 +26,9 @@ body {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: left;
   font-size: 1.2rem;
+  @include iPadWidth {
+    text-align: justify;
+  }
 }
