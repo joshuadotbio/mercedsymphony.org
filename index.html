@@ -1,4 +1,20 @@
 ---
-layout: placeholder
+layout: default
 ---
 
+<div class="block" id="fp-splash">
+  <div class="child">
+  </div>
+</div>
+<div class="block" id="season">
+  {% for event in site.data.season %}
+  <div class="child season-event js-square">
+    <date>
+      {{ event.date | date: "%B %d"}}<br />
+      {{ event.date | date: "%Y" }}
+    </date>
+    <h2>{{ event.title }}</h2>
+    <time>{{ event.time }}</time>
+  </div>
+  {% endfor %}
+</div>

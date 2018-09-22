@@ -17,12 +17,8 @@ body {
   font-size: 100%;
   font-family: $sans-serif;
 
-  @include iPhoneWidth {
-    font-size: 100%;
-  }
-
   @include iPadWidth {
-    font-size: 150%;
+    font-size: 125%;
   }
 }
 
@@ -38,14 +34,14 @@ p {
   max-width: $text-column-width;
 }
 
-h1, h2 {
+h1 {
   margin: $vertical-rhythm 0;
   line-height: $h1-line-height;
   font-weight: 900;
   max-width: $text-column-width;
 }
 
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   margin: $vertical-rhythm 0 0 0;
   line-height: $p-line-height;
   font-weight: 900;
@@ -111,8 +107,8 @@ small {
   }
 
   @include MacBookAirWidth {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 
@@ -136,4 +132,29 @@ small {
   @extend .child;
   display: table-cell;
   vertical-align: middle;
+}
+
+#fp-splash {
+  width: 100%;
+  height : 500px;
+  background-color: $olive;
+}
+
+#season {
+  background-color: $maroon;
+}
+
+.season-event {
+  float: left;
+  background-color: $white;
+
+  @include iPadWidth {
+    width: span(1 of 2);
+  }
+  @include iPadProWidth {
+    width: span(1 of 3);
+  }
+  @include MacBookAirWidth {
+    width: span(1 of 4);
+  }
 }
