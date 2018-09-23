@@ -161,20 +161,25 @@ small {
 }
 
 #season {
-  background-color: $white;
+  background-color: $silver;
   @extend %inner-box-wrap;
 }
 
 .season-event {
   display: table;
   float: left;
-  background-color: $white;
+  background-color: $silver;
   @extend %inner-box-wrap;
   width: span(1 of 1);
 
   @include iPadWidth {
     width: span(1 of 2);
   }
+
+  @include iPadProWidth {
+    width: span(1 of 3);
+  }
+  
   @include MacBookAirWidth {
     width: span(1 of 4);
   }
@@ -182,18 +187,20 @@ small {
 
 .inner-box {
   @extend %inner-box;
-  border: 1px solid $black;
   display: table-cell;
   width: 100%;
   vertical-align: middle;
   position: relative;
+  border-radius: 0 0.5em 0.5em 0.5em;
+  @extend %shadow-1;
+  background-color: $white;
 }
 
 .season-event-date {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: $black;
+  background-color: $olive;
   @extend %inner-box;
   color: $white;
   border-radius: 0 0 0.5em 0;
