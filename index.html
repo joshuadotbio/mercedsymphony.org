@@ -8,13 +8,19 @@ layout: default
 </div>
 <div class="block" id="season">
   {% for event in site.data.season %}
-  <div class="child season-event js-square">
-    <date>
-      {{ event.date | date: "%B %d"}}<br />
-      {{ event.date | date: "%Y" }}
-    </date>
-    <h2>{{ event.title }}</h2>
-    <time>{{ event.time }}</time>
+  <div class="season-event">
+    <div class="inner-box js-square">
+      <div class="season-event-date">
+        <date>
+          <strong>{{ event.date | date: "%b %d"}}</strong><br />
+          <small>{{ event.date | date: "%Y" }}</small>
+        </date>
+      </div>
+      <div class="season-event-content">
+        <h2>{{ event.title }}</h2>
+        <p><small>{{ event.time }} at the Merced Theatre</small></p>
+      </div>
+    </div>
   </div>
   {% endfor %}
 </div>

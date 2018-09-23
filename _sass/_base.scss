@@ -61,6 +61,10 @@ a {
   }
 }
 
+strong {
+  font-weight: 900;
+}
+
 small {
   font-family: $sans-serif;
 }
@@ -112,6 +116,22 @@ small {
   }
 }
 
+%inner-box-wrap {
+  padding: 0.5rem;
+
+  @include iPhoneWidth {
+    padding: 1rem;
+  }
+}
+
+%inner-box {
+  padding: 0.5rem;
+
+  @include iPadProWidth {
+    padding: 1rem;
+  }
+}
+
 .block {
   @extend %clearfix;
 }
@@ -141,20 +161,40 @@ small {
 }
 
 #season {
-  background-color: $maroon;
+  background-color: $white;
+  @extend %inner-box-wrap;
 }
 
 .season-event {
+  display: table;
   float: left;
   background-color: $white;
+  @extend %inner-box-wrap;
+  width: span(1 of 1);
 
   @include iPadWidth {
     width: span(1 of 2);
   }
-  @include iPadProWidth {
-    width: span(1 of 3);
-  }
   @include MacBookAirWidth {
     width: span(1 of 4);
   }
+}
+
+.inner-box {
+  @extend %inner-box;
+  border: 1px solid $black;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.season-event-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $black;
+  @extend %inner-box;
+  color: $white;
+  border-radius: 0 0 0.5em 0;
 }
