@@ -89,11 +89,25 @@ small {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+}
 
-  @include iPadProWidth {
-    padding-left: 4rem;
-    padding-right: 4rem;
+%square-vertical-padding {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @include iPhoneWidth {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
+}
+
+.hpad {
+  @extend %base-horizontal-padding;
+}
+
+.spad {
+  @extend %base-horizontal-padding;
+  @extend %square-vertical-padding;
 }
 
 %base-vertical-padding {
@@ -116,6 +130,10 @@ small {
   }
 }
 
+.vpad {
+  @extend %base-vertical-padding;
+}
+
 %inner-box-wrap {
   padding: 0.5rem;
 
@@ -127,7 +145,7 @@ small {
 %inner-box {
   padding: 0.5rem;
 
-  @include iPadProWidth {
+  @include iPhoneWidth {
     padding: 1rem;
   }
 }
@@ -154,10 +172,96 @@ small {
   vertical-align: middle;
 }
 
-#fp-splash {
+a.button {
+  display: inline-block;
+  background-color: $blue;
+  color: $white;
+  text-decoration: none;
+  font-family: $sans-serif;
+  font-weight: bold;
+  padding: 0.4em 1.5em 0.5em 1.5em;
+  border-radius: 1rem;
+  @extend %shadow-2;
+
+  &:hover {
+    color: $white;
+    background-color: lighten($blue, 10%);
+  }
+}
+
+.splash {
   width: 100%;
-  height : 500px;
-  background-color: $olive;
+  background-color: rgb(44, 25, 19);
+
+  @include iPadProWidth {
+    display: table;
+  }
+}
+
+.splash-image {
+  width: 100%;
+  height: 300px;
+  background-color: $black;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  background-image: url('/assets/rwyan/conductor-solo.jpg');
+
+  @include iPhoneLandscapeWidth {
+    height: 450px;
+  }
+
+  @include iPadWidth {
+    height: 550px;
+  }
+
+  @include iPadProWidth {
+    height: 700px;
+    background-position: 40% top;
+    width: span(1 of 2);
+    display: table-cell;
+  }
+
+  @include MacBookAirWidth {
+    background:
+      linear-gradient(
+        to left,
+        rgba(44, 25, 19, 1.00),
+        rgba(44, 25, 19, 0.00) 15%
+      ),
+      url('/assets/rwyan/conductor-solo.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: $black;
+  }
+
+  @include MacBookProWidth {
+    background:
+      linear-gradient(
+        to left,
+        rgba(44, 25, 19, 1.00) 5%,
+        rgba(44, 25, 19, 0.00) 50%
+      ),
+      url('/assets/rwyan/conductor-solo.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: $black;
+  }
+}
+
+.splash-content {
+  @extend %has-dark-background;
+  width: 100%;
+
+  @include iPadProWidth {
+    width: span(1 of 2);
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
 }
 
 #season {
@@ -172,7 +276,7 @@ small {
   @extend %inner-box-wrap;
   width: span(1 of 1);
 
-  @include iPadWidth {
+  @include iPhoneLandscapeWidth {
     width: span(1 of 2);
   }
 
@@ -204,4 +308,45 @@ small {
   @extend %inner-box;
   color: $white;
   border-radius: 0 0 0.5em 0;
+}
+
+.schedule {
+  background-color: $silver;
+}
+
+.event {
+  float: left;
+  background-color: $white;
+  width: span(1 of 1);
+  border-top: 0.5rem solid $olive;
+
+  @include iPhoneLandscapeWidth {
+    width: span(1 of 2);
+  }
+
+  @include iPadProWidth {
+    width: span(1 of 3);
+  }
+  
+  @include MacBookAirWidth {
+    width: span(1 of 4);
+  }
+}
+
+.event-date {
+  display: inline-block;
+  background-color: $olive;
+  @extend %has-dark-background;
+  padding-top: 0.5em;
+  padding-bottom: 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.event-month {
+  font-weight: 900;
+}
+
+.event-content {
+  padding-top: 1em;
+  padding-bottom:1rem;
 }

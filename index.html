@@ -2,24 +2,33 @@
 layout: default
 ---
 
-<div class="block" id="fp-splash">
-  <div class="child">
+<div class="block splash" id="splash">
+  <div class="splash-image">
+  </div>
+  <div class="splash-content hpad vpad">
+    <h1>Youth Auditions</h1>
+    <p>
+      Explain what you need me to do here using a short paragraph that should span at least three lines for aesthetic purposes.
+    </p>
+    <p>
+      <a class="button" href="/">Sign Up</a>
+    </p>
   </div>
 </div>
-<div class="block" id="season">
+
+<div class="block schedule">
   {% for event in site.data.season %}
-  <div class="season-event">
-    <div class="inner-box js-square">
-      <div class="season-event-date">
-        <date>
-          <strong>{{ event.date | date: "%b %d"}}</strong><br />
-          <small>{{ event.date | date: "%Y" }}</small>
-        </date>
+  <div class="event js-square">
+    <div class="event-date hpad">
+      <div class="event-month">
+        <span>{{ event.date | date: "%b %d"}}</span>
       </div>
-      <div class="season-event-content">
-        <h2>{{ event.title }}</h2>
-        <p><small>{{ event.time }} at the Merced Theatre</small></p>
+      <div class="event-year">
+        <span>{{ event.date | date: "%Y" }}</span>
       </div>
+    </div>
+    <div class="event-content hpad">
+      <h2>{{ event.title }}</h2>
     </div>
   </div>
   {% endfor %}
