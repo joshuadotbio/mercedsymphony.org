@@ -22,7 +22,7 @@ $susy: (
 }
 @mixin iPhoneLandscapeWidth {
   // landscape width less 16px
-  @media (min-width: 552px) { @content; }
+  @media (min-width: 651px) { @content; }
 }
 @mixin iPadWidth {
   // portrait width less 16px
@@ -31,6 +31,9 @@ $susy: (
 @mixin iPadProWidth {
   // portrait width less 16px
   @media (min-width: 1008px) { @content; }
+}
+@mixin iPadProLandscapeWidth {
+  @media (min-width: 1350px) { @content; }
 }
 @mixin MacBookAirWidth {
   // landscape width less 16px

@@ -22,7 +22,7 @@ body {
   }
 }
 
-$vertical-rhythm: 2rem;
+$vertical-rhythm: 1rem;
 $p-line-height: 1.5;
 $h1-line-height: 1.15;
 $text-column-width: 50rem;
@@ -180,12 +180,24 @@ a.button {
   font-family: $sans-serif;
   font-weight: bold;
   padding: 0.4em 1.5em 0.5em 1.5em;
-  border-radius: 1rem;
-  @extend %shadow-2;
+  border-radius: 0.5rem;
+  @extend %shadow-1;
 
   &:hover {
     color: $white;
     background-color: lighten($blue, 10%);
+  }
+}
+
+a.button-gray {
+  background-color: $silver;
+  color: $black;
+}
+
+a.sneaky {
+  color: $black;
+  &:hover {
+    color: lighten($blue, 10%);
   }
 }
 
@@ -289,27 +301,6 @@ a.button {
   }
 }
 
-.inner-box {
-  @extend %inner-box;
-  display: table-cell;
-  width: 100%;
-  vertical-align: middle;
-  position: relative;
-  border-radius: 0 0.5em 0.5em 0.5em;
-  @extend %shadow-1;
-  background-color: $white;
-}
-
-.season-event-date {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: $olive;
-  @extend %inner-box;
-  color: $white;
-  border-radius: 0 0 0.5em 0;
-}
-
 .schedule {
   background-color: $silver;
 }
@@ -324,7 +315,7 @@ a.button {
     width: span(1 of 2);
   }
 
-  @include iPadProWidth {
+  @include iPadProLandscapeWidth {
     width: span(1 of 3);
   }
   
@@ -337,9 +328,17 @@ a.button {
   display: inline-block;
   background-color: $olive;
   @extend %has-dark-background;
-  padding-top: 0.5em;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
   border-radius: 0 0 0.5rem 0.5rem;
+
+  &:hover {
+    color: $white;
+    background-color: lighten($blue, 10%);
+  }
 }
 
 .event-month {
@@ -348,5 +347,15 @@ a.button {
 
 .event-content {
   padding-top: 1em;
-  padding-bottom:1rem;
+  padding-bottom:2rem;
+}
+
+.event-done {
+  .event-date {
+    background-color: $gray;
+  }
+}
+
+.footer {
+  background-color: $maroon;
 }

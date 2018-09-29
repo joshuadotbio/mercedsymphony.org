@@ -8,7 +8,7 @@ layout: default
   <div class="splash-content hpad vpad">
     <h1>Youth Auditions</h1>
     <p>
-      Explain what you need me to do here using a short paragraph that should span at least three lines for aesthetic purposes.
+      Sign-ups for youth auditions are now open! Explain what you want the visitor to do here using a short paragraph that should span at least three lines for aesthetic purposes.
     </p>
     <p>
       <a class="button" href="/">Sign Up</a>
@@ -18,18 +18,21 @@ layout: default
 
 <div class="block schedule">
   {% for event in site.data.season %}
-  <div class="event js-square">
-    <div class="event-date hpad">
+  <div class="event js-square hpad {% if event.class %}{{ event.class | prepend: 'event-' }}{% endif %}">
+    <a class="event-date" href="{{ event.url }}">
       <div class="event-month">
         <span>{{ event.date | date: "%b %d"}}</span>
       </div>
       <div class="event-year">
         <span>{{ event.date | date: "%Y" }}</span>
       </div>
-    </div>
-    <div class="event-content hpad">
-      <h2>{{ event.title }}</h2>
+    </a>
+    <div class="event-content">
+      <h2><a class="sneaky" href="{{ event.url }}">{{ event.title }}</a></h2>
+      <p><small><a class="sneaky" href="{{ event.url }}">{{ event.time }} at the Merced Theater</a></small></p>
+      <p>{{ event.description }}</p>
     </div>
   </div>
   {% endfor %}
 </div>
+
