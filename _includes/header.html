@@ -1,0 +1,14 @@
+<div class="header-fixed hpad" id="site-header">
+  <a href="#menu">Menu</a>
+  {% for item in site.data.menu %}
+  <a href="{{ item.href }}">{{ item.label }}</a>
+  {% endfor %}
+</div>
+<div class="block header">
+  <div class="header-name hpad">
+    <a href="/">Merced&nbsp;Symphony<br />Association</a>
+  </div>
+  <a class="header-logo" href="/">
+    {% include logo.svg %}
+  </a>
+</div>

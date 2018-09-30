@@ -1,3 +1,9 @@
+- title: Beethoven & More
+  date: September 22, 2018
+  time: 7:30pm
+  url: "#"
+  class: done
+  description: <em>Ma Vlast</em> (Bedřich Smetana) • <em>Horn Concerto No. 1</em> (Reinhold Moritzevich) • <em>Glière</em> (Kevin Rivard) • <em>Horn Symphony 7</em> (Ludwig van Beethoven)
 - title: Simply Strings
   date: November 17, 2018
   time: 7:30pm
@@ -16,9 +22,3 @@
   url: "#"
   class:
   description: List the pieces here • But they should be short • You don't want to force the square larger
-- title: Beethoven & More
-  date: September 22, 2018
-  time: 7:30pm
-  url: "#"
-  class: done
-  description: <em>Ma Vlast</em> (Bedřich Smetana) • <em>Horn Concerto No. 1</em> (Reinhold Moritzevich) • <em>Glière</em> (Kevin Rivard) • <em>Horn Symphony 7</em> (Ludwig van Beethoven)

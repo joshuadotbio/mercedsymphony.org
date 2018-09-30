@@ -1,4 +1,51 @@
-<div class="block footer vpad">
+<div class="block footer vpad" id="menu">
+
+  <div class="footer-column hpad">
+    <h4>Navigation</h4>
+    <ul class="footer-menu">
+      {% for item in site.data.menu %}
+      <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="footer-column hpad">
+    <h4>Contact</h4>
+    <p>
+      Merced Symphony Association<br />
+      P.O. Box 894<br />
+      Merced, CA 95341-0894
+    </p>
+    <p>
+      +1 (209) 383-3277
+    </p>
+    <p>
+      <a href="mailto:mercedsymphonyassociation@gmail.com">Send an email</a>
+    </p>
+  </div>
+
+  <div class="footer-column hpad">
+    <h4>Directions</h4>
+    <p>
+      Merced Theatre<br />
+      301 W. Main Street<br />
+      Merced, CA 95340
+    </p>
+    <p>
+    </p>
+  </div>
+
+  <div class="footer-column hpad">
+    <h4>Attribution</h4>
+    <p>
+      Photos used on this website are &copy; Roger Wyan and used with permission.
+    </p>
+    <h4>Website</h4>
+    <p>
+      This website is designed, developed, and managed by <a href="https://joshua.bio">Joshua Gonzales</a>.
+    </p>
+  </div>
+
 </div>
 
 <script>
@@ -29,6 +76,7 @@
   }
 
   var z = function() {
+    a("body",["site-header"]);
     c("js-square");
   };
 

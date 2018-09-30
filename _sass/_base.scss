@@ -16,6 +16,7 @@ $serif: "PT Serif", serif;
 body {
   font-size: 100%;
   font-family: $sans-serif;
+  background-color: $olive;
 
   @include iPadWidth {
     font-size: 125%;
@@ -32,6 +33,10 @@ p {
   margin: 0 0 $vertical-rhythm 0;
   line-height: $p-line-height;
   max-width: $text-column-width;
+}
+
+p.larger {
+  font-size: 1.25em;
 }
 
 h1 {
@@ -201,6 +206,118 @@ a.sneaky {
   }
 }
 
+.logo-svg {
+  background-color: $white;
+  fill: $black;
+  border: none;
+}
+
+.logo-dark-strokes {
+  stroke: $black;
+}
+
+.logo-lights {
+  fill: $white;
+}
+
+.logo-light-strokes {
+  stroke: $white;
+}
+
+.header {
+  position: relative;
+  background-color: $olive;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: $olive;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+
+  a {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: $white;
+    font-weight: 300;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.header-name {
+  text-align: center;
+  width: 100%;
+  font-family: $serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  font-style: italic;
+  color: $white;
+
+  a {
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.header-logo {
+  max-width: 4rem;
+  z-index: 10;
+  background-color: $white;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  @extend %shadow-4;
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include iPadWidth {
+    max-width: 6rem;
+  }
+
+  @include iPadProLandscapeWidth {
+    max-width: 8rem;
+  }
+
+  &:hover {
+    background-color: $yellow;
+
+    .logo-svg {
+      background-color: $yellow;
+      fill: $black;
+      border: none;
+    }
+
+    .logo-dark-strokes {
+      stroke: $black;
+    }
+
+    .logo-lights {
+      fill: $yellow;
+    }
+
+    .logo-light-strokes {
+      stroke: $yellow;
+    }
+  }
+}
+
 .splash {
   width: 100%;
   background-color: rgb(44, 25, 19);
@@ -276,31 +393,6 @@ a.sneaky {
   }
 }
 
-#season {
-  background-color: $silver;
-  @extend %inner-box-wrap;
-}
-
-.season-event {
-  display: table;
-  float: left;
-  background-color: $silver;
-  @extend %inner-box-wrap;
-  width: span(1 of 1);
-
-  @include iPhoneLandscapeWidth {
-    width: span(1 of 2);
-  }
-
-  @include iPadProWidth {
-    width: span(1 of 3);
-  }
-  
-  @include MacBookAirWidth {
-    width: span(1 of 4);
-  }
-}
-
 .schedule {
   background-color: $silver;
 }
@@ -356,6 +448,68 @@ a.sneaky {
   }
 }
 
+.director {
+  @extend %has-dark-background;
+  text-align: center;
+  background-color: $maroon;
+  background:
+    linear-gradient(
+        to bottom,
+        rgba(44, 25, 19, 0.90),
+        rgba(44, 25, 19, 0.30)
+    ),
+    url('/assets/rwyan/full-stage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.director-content {
+  max-width: $text-column-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer {
   background-color: $maroon;
+  @extend %has-dark-background;
+}
+
+.footer-column {
+  float: left;
+  width: span(1 of 1);
+  margin-bottom: 3rem;
+
+  @include iPhoneLandscapeWidth {
+    width: span(1 of 2);
+  }
+
+  @include iPadProLandscapeWidth {
+    width: span(1 of 3);
+  }
+  
+  @include MacBookAirWidth {
+    width: span(1 of 4);
+  }
+}
+
+.footer-menu {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0.5rem;
+  padding-top: 0;
+
+  li {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    display: block;
+    border: 1px solid $white;
+    text-decoration: none;
+    padding:  0.4em 1em 0.5em 1em;
+    border-radius: 0.5rem;
+  }
 }

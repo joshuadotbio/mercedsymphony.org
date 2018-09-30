@@ -16,7 +16,7 @@ layout: default
   </div>
 </div>
 
-<div class="block schedule">
+<div class="block schedule" id="season">
   {% for event in site.data.season %}
   <div class="event js-square hpad {% if event.class %}{{ event.class | prepend: 'event-' }}{% endif %}">
     <a class="event-date" href="{{ event.url }}">
@@ -36,3 +36,12 @@ layout: default
   {% endfor %}
 </div>
 
+<div class="block director vpad">
+  <div class="director-content hpad">
+    <h1>Meet the Music Director</h1>
+    <p class="larger">
+      Recognized nationally for his innovative education programs, Ming Luke has written, arranged, and performed over 120 education concerts. He has served on grant panels for the National Endowment of the Arts and the Sacramento Metropolitan Arts Commission.
+    </p>
+    <p><a class="button" href="/">Learn More</a></p>
+  </div>
+</div>
