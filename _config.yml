@@ -19,6 +19,8 @@ timezone: 'America/Los_Angeles'
 
 # Options
 permalink: /:title
+include:
+  - '_pages'
 exclude:
   - 'node_modules'
   - 'bower_components'

@@ -1,8 +1,10 @@
 - label: "Home"
   href: "/"
+- label: "Tickets"
+  href: "/tickets"
 - label: Season Schedule
   href: "/#season"
 - label: "Brochure (2018-2019)"
   href: "/season_brochure.pdf"
 - label: "Music Director"
-  href: "/"
+  href: "/music-director"

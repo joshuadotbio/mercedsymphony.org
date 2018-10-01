@@ -23,12 +23,12 @@ body {
   }
 }
 
-$vertical-rhythm: 1rem;
+$vertical-rhythm: 2rem;
 $p-line-height: 1.5;
 $h1-line-height: 1.15;
 $text-column-width: 50rem;
 
-p {
+p, ul {
   font-family: $serif;
   margin: 0 0 $vertical-rhythm 0;
   line-height: $p-line-height;
@@ -159,6 +159,10 @@ small {
   @extend %clearfix;
 }
 
+.is-white {
+  background-color: $white;
+}
+
 .child {
   display: block;
   @extend %base-horizontal-padding;
@@ -206,10 +210,17 @@ a.sneaky {
   }
 }
 
+article {
+  h1 {
+    text-align: center;
+  }
+}
+
 .logo-svg {
   background-color: $white;
   fill: $black;
   border: none;
+  width: 100%;
 }
 
 .logo-dark-strokes {
@@ -253,6 +264,19 @@ a.sneaky {
   }
 }
 
+.for-narrow {
+  @include iPadWidth {
+    display: none;
+  }
+}
+
+.for-wide {
+  display: none;
+  @include iPadWidth {
+    display: inline;
+  }
+}
+
 .header-name {
   text-align: center;
   width: 100%;
@@ -270,50 +294,54 @@ a.sneaky {
       color: $white;
     }
   }
+
+  @include iPadWidth {
+    padding-bottom: 5rem;
+  }
 }
 
 .header-logo {
-  max-width: 4rem;
+  position: absolute;
+  width: 100%;
+  max-width: 60px;
+  bottom: -45px;
+  left: 0;
+  right: 0;
   z-index: 10;
   background-color: $white;
   padding: 0.5rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   @extend %shadow-4;
-  position: absolute;
-  width: 100%;
-  top: 80%;
-  left: 0;
-  right: 0;
   margin-left: auto;
   margin-right: auto;
 
   @include iPadWidth {
-    max-width: 6rem;
-  }
-
-  @include iPadProLandscapeWidth {
-    max-width: 8rem;
+    max-width: 80px;
+    bottom: -60px;
   }
 
   &:hover {
-    background-color: $yellow;
+    $background: $yellow;
+    $stroke: $blue;
+
+    background-color: $background;
 
     .logo-svg {
-      background-color: $yellow;
-      fill: $black;
+      background-color: $background;
+      fill: $stroke;
       border: none;
     }
 
     .logo-dark-strokes {
-      stroke: $black;
+      stroke: $stroke;
     }
 
     .logo-lights {
-      fill: $yellow;
+      fill: $background;
     }
 
     .logo-light-strokes {
-      stroke: $yellow;
+      stroke: $background;
     }
   }
 }
@@ -512,4 +540,14 @@ a.sneaky {
     padding:  0.4em 1em 0.5em 1em;
     border-radius: 0.5rem;
   }
+}
+
+.centered-column {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $text-column-width;
+}
+
+.text-centered {
+  text-align: center;
 }

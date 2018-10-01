@@ -1,7 +1,7 @@
 <div class="header-fixed hpad" id="site-header">
-  <a href="#menu">Menu</a>
+  <a href="#menu" class="for-narrow">&#9776; Menu</a>
   {% for item in site.data.menu %}
-  <a href="{{ item.href }}">{{ item.label }}</a>
+  <a href="{{ item.href }}" class="for-wide">{{ item.label }}</a>
   {% endfor %}
 </div>
 <div class="block header">

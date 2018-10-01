@@ -1,24 +1,24 @@
 - title: Beethoven & More
   date: September 22, 2018
   time: 7:30pm
-  url: "#"
+  url: "/season/beethoven-and-more"
   class: done
-  description: <em>Ma Vlast</em> (Bedřich Smetana) • <em>Horn Concerto No. 1</em> (Reinhold Moritzevich) • <em>Glière</em> (Kevin Rivard) • <em>Horn Symphony 7</em> (Ludwig van Beethoven)
+  description: <em>Ma Vlast</em> (Bedřich Smetana) • <em>Horn Concerto No. 1</em> (Reinhold Moritzevich) • <em>Glière</em> (Kevin Rivard) • <em>Horn Symphony 7</em> (Beethoven)
 - title: Simply Strings
   date: November 17, 2018
   time: 7:30pm
-  url: "#"
+  url: "/season/simply-strings"
   class:
   description: <em>Chamber Symphony</em> (Dmitri Shostakovich) • <em>Violin Concerto</em> (Bach) • <em>St. Paul Suite</em> (Gustav Holst)
 - title: Pops Concert
   date: February 1, 2019
   time: 7:30pm
-  url: "#"
+  url: "/season/pops-concert"
   class:
-  description: <em>Symphony 29</em> (Mozart) • <em>Concertino</em> (Cecil Chaminade) • <em>Symphony 41 ‘Jupiter’</em> (Mozart)
+  description: From <em>Star Wars</em> music to Broadway solos and duets, this is not a concert to be missed!
 - title: Magnificent Mozart
   date: April 12, 2019
   time: 7:30pm
-  url: "#"
+  url: "/season/magnificent-mozart"
   class:
-  description: List the pieces here • But they should be short • You don't want to force the square larger
+  description: <em>Symphony 29</em> (Mozart) • <em>Concertino</em> (Cecil Chaminade) • <em>Symphony 41 ‘Jupiter’</em> (Mozart)
