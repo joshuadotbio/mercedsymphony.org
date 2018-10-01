@@ -8,7 +8,7 @@
 # Site settings
 title: "Merced Symphony Association"
 description: "We provide the Central Valley with performances by world class musicians from across California."
-url: 'http://mercedsymphony.org'
+url: 'https://mercedsymphony.org'
 baseurl: ''
 facebook_image: ''
 type: 'article'
