@@ -571,6 +571,7 @@ article {
   background-color: $black;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   @include iPhoneLandscapeWidth {
     height: 450px;
