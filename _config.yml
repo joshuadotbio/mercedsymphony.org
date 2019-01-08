@@ -32,6 +32,8 @@ exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
   - '*.zsh'
+  - '*.sublime-project'
+  - '*.sublime-workspace'
 keep_files:
 sass:
   style: compressed
