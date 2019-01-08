@@ -6,24 +6,42 @@ title: Merced Symphony Youth Auditions
 
 # Merced Symphony Youth Auditions
 
-The 2017-2018 Season will be our 60th consecutive year of bringing exceptional classical music to the Merced community. Enclosed is an application for the Merced Symphony Youth Auditions which are being cosponsored this year with Merced College. We hope you will encourage any students you feel are capable to enter the competition. Also, feel free to copy the application and share it with other music teachers and students.
+Dear Music/Voice Teacher,
 
-Qualifications:
+Be a part of our 61st consecutive year of bringing exceptional classical music to Merced!  [Enclosed is an application for the MSA Youth Auditions co-sponsored with Merced College.](/assets/documents/MSA-Audition-Application-2018.doc)  Please encourage your advanced students to audition!  Please also share this opportunity with other music teachers and their experienced voice or instrument students.
+
+This year’s competition is Saturday, November 17, 2018 from 11:00 AM to 1:00 pm at Merced College. Merced College is located at 3600 M. St., Merced, CA 95348-2806.  Parking fee is $1.
+
+The musical requirements are as follows:
 
 - Contestants must be able to perform proficiently on a musical instrument or in voice.
 - Concerto performed should be from standard concert repertoire.
-- Vocal competition should include two contrasting selections.
-- THIS YEAR’S COMPETITION IS SATURDAY, October 14, 2017 from 11:00 AM to 1:00 pm at Merced College. Students will report at least 15 minutes ahead of their assigned time to Music Room 1 which is located in the building behind the Merced College Theater. There are practice rooms available and a place for parents to wait during the auditions. The schedule for the auditions will be determined by the number of applicants and the distance they are travelling and will be given the week preceding the auditions.
-- Contestants must be under the age of 21 as of January 1, 2018.
+- Vocal participants should present two contrasting selections.
+
+Other requirements are as follows:
+
+- Contestants must be under the age of 21 as of January 1, 2019.
 - Contestants must provide three (3) copies of the music to be performed for the judges.
-- At the discretion of the Music Director, the winner(s) may be invited to perform with the at either one of the four Children’s Concerts or with the Merced Symphony Orchestra at the Spring.
-- Concert and are expected to do so, if asked. There is no guarantee of a public performance.
+- At the discretion of the Music Director, the winner(s) may be invited to perform at either one of the four Children’s Concerts or with the Merced Symphony Orchestra at its Spring Concert.  Please note that we cannot, at this time, guarantee a public performance for the audition winner(s).
 - Cash awards are given to the winner(s). Usually this is--1st Place: $100/2nd Place: $75/3rd Place: $50.
-- Contestants are expected to provide their own accompanist. A piano or keyboard will be available for the accompanist.
+- Contestants are expected to provide their own accompanist.  A piano or keyboard will be available for the accompanist.
 - A $20 entry fee made payable to the Merced Symphony Association (MSA) must accompany the completed application.
-- Deadline for applications is September 30, 2017.
+- Deadline for applications is Wednesday, November 7, 2018.
 - Mail entry form and fee to the Merced Symphony, P. O. Box 894, Merced 95341-0894.
-- If you have questions, please call the Symphony Office, 383-3277 to leave a message or call MSA President, Judy Edwina Smith, 209-777-5345 or e-mail sierratrekker@comcast.net.
+- If you have questions, please call the Symphony Office at 383-3277 to leave a message, or contact MSA President, Judy Edwina Smith, 209-777-5345 or e-mail sierratrekker@comcast.net.
+
+Students will report at least 15 minutes ahead of their assigned time to Music Room 1 located in the Music Building behind the Merced College Theater.  Practice rooms are available as well as a place for parents to wait during the auditions.  Audition schedule will be determined by the number of applicants and the distance each has to travel.  Schedule will be announced during the week before the audition.
+
+Several audition winners have played professionally and one has achieved world-wide renown.  The Merced Symphony Association and Merced College are proud to have helped them on their way.  We look forward to helping your exceptional students grow as well!
+
+Sincerely,
+
+Judy Edwina Smith, President<br />
+Merced Symphony Board
+
+John Albano, Dean<br />
+Fine & Performing Arts, Humanities, and Social Sciences at 
+Merced College
 
 ## Youth Audition Winner Amaryn Olmeda
 
