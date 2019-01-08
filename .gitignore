@@ -4,6 +4,7 @@ _site/
 Gemfile
 Gemfile.lock
 *.zsh
+*.sublime-workspace
 
 # =========================
 # Operating System Files
