@@ -274,14 +274,14 @@ article {
 }
 
 .for-narrow {
-  @include iPadWidth {
+  @include iPadProWidth {
     display: none;
   }
 }
 
 .for-wide {
   display: none;
-  @include iPadWidth {
+  @include iPadProWidth {
     display: inline;
   }
 }
