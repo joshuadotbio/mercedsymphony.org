@@ -21,6 +21,7 @@ timezone: 'America/Los_Angeles'
 permalink: /:title
 include:
   - '_pages'
+  - '.htaccess'
 exclude:
   - 'node_modules'
   - 'bower_components'
