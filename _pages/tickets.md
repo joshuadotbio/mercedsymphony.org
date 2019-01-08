@@ -27,7 +27,7 @@ Tickets to Fundraisers may be purchased from any Board Member, or by phone from 
 - All individual tickets will be available at the Merced Theatre Box office on or after September 1, 2018. 
 - Season Tickets can be purchased from MSA beginning in mid-August at a 17% discount. 
 - First time season ticket purchasers will receive a 30% discount on season tickets.
-- Season Tiickets for students are also available.
+- Season Tickets for students are also available.
 - Music programs are subject to change.
 
 [Click here to download the Subscription Form](/subscription_form.pdf).
