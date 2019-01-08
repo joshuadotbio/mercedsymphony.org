@@ -517,7 +517,7 @@ article {
   width: span(1 of 1);
   margin-bottom: 3rem;
 
-  @include iPhoneLandscapeWidth {
+  @include iPadProWidth {
     width: span(1 of 2);
   }
 
