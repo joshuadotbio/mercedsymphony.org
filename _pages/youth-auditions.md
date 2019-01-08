@@ -27,7 +27,7 @@ Qualifications:
 
 ## Youth Audition Winner Amaryn Olmeda
 
-![Photo of Amaryn Olmeda](/assets/images/ya_winner.jpg)
+![Photo of Amaryn Olmeda](/assets/images/yawinner.jpg)
 
 Aspiring young violinist Amaryn Olmeda, age 9, began playing the violin at 4 years old. She is a student of renowned violinist and educator, William Barbini. Amaryn made her performance debut at the Colorado Suzuki Strings Institute in Beaver Colorado at the age of 6. Since then, she has won first place for the Auburn Symphony Young Artists Competition (also the Grand Prize Winner), the Music in the Mountains Young Musicians Competition (also the Paul Perry Award for Best Performance), the Classical Music Masters at the Harris Center for the Performing Arts, the Sacramento Youth Symphony Academic Orchestra Concerto Competition, the Pacific Musical Society Competition in San Francisco, the Sacramento Section of the American String Teachers Association Solo Competition, and recently the Merced Symphony Youth Auditions. In addition to her solo endeavors, Amaryn is Principal 2nd Violinist in the Premier Orchestra of the Sacramento Youth Symphony.
 
