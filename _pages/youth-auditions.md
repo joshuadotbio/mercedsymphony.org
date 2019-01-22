@@ -43,7 +43,18 @@ John Albano, Dean<br />
 Fine & Performing Arts, Humanities, and Social Sciences at 
 Merced College
 
-## Youth Audition Winner Amaryn Olmeda
+## 2018 Youth Audition Winner Benjamin Jiang
+
+![Photo of Benjamin Jiang](/assets/images/2018-ya-winner.jpg)
+
+Benjamin Jiang, age 11, is a 6th grader at Elliott Ranch Elementary School in Elk Grove, CA.  He began studying piano at the age of five with Mrs. Ning Chen, and currently studies with Dr. Natsuki Fukasawa. His recent accomplishments as a pianist include winning first place in his division at the United States International Music Competition, the International Music Festival, the Japanese Piano Teachers Association of Greater Sacramento’s Piano Competition, California Association of Professional Music Teachers’ Go for the Gold Festival, and winning second place at the United States Open Music Competition. Benjamin is a member of the Sacramento Youth Symphony’s Premier Orchestra.
+
+Benjamin also started cello with Mrs. Beverly Rogers at age 7, and continues with Mrs. Susan Lamb Cook, winning the American String Teachers Association’s Solo Competition in the Sacramento branch, the Classical Masters Music Festival, and the Music Teachers’ Association of California’s Memorial Scholarship Recital.
+
+Benjamin enjoys performing music, along with his friends, for the community, like participating in Mrs. Cook’s annual Winter and Summer Chamber Music Workshops to perform at senior homes and churches.  Benjamin loves mathematics and reading in school, in addition to his hobbies of swimming, playing tennis, skiing, and frolicking with his five-year old brother, Richard.
+
+
+## 2017 Youth Audition Winner Amaryn Olmeda
 
 ![Photo of Amaryn Olmeda](/assets/images/ya_winner.jpg)
 
