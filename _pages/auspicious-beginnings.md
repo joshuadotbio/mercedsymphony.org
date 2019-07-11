@@ -13,9 +13,9 @@ October 5, 2019 | 7:30pm<br />
 Merced Theatre
 
 ### Pieces
-•	*Hebrides Overture*, Felix Mendelssohn
-•	Heather Pinkham World Premiere *piano concerto* (Ralph van Raat, pianist)
-•	*Symphony No. 1*, Ludwig van Beethoven
+-	*Hebrides Overture*, Felix Mendelssohn
+-	Heather Pinkham World Premiere *piano concerto* (Ralph van Raat, pianist)
+-	*Symphony No. 1*, Ludwig van Beethoven
 
 ## Composer Heather Pinkham
 
