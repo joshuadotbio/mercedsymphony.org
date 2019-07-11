@@ -4,9 +4,9 @@
   href: "/tickets"
 - label: Season Schedule
   href: "/#season"
-- label: "Brochure (2018-2019)"
-  href: "/season_brochure.pdf"
+- label: "Season Brochure"
+  href: "/assets/documents/merced-symphony-2019-2020-brochure.pdf"
 - label: "Music Director"
   href: "/music-director"
-- label: "Youth Auditions"
-  href: "/youth-auditions"
+- label: "Next Concert"
+  href: "/season/auspicious-beginnings"
