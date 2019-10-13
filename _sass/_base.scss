@@ -313,6 +313,8 @@ article {
   position: absolute;
   width: 100%;
   max-width: 60px;
+  height: 100%;
+  max-height: 65%;
   bottom: -45px;
   left: 0;
   right: 0;
@@ -352,13 +354,6 @@ article {
     .logo-light-strokes {
       stroke: $background;
     }
-  }
-}
-
-@supports (-ms-accelerator:true) {
-  .header-logo {
-    height: 100%;
-    max-height: 65%;
   }
 }
 
