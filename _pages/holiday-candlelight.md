@@ -6,7 +6,7 @@ title: Holiday Candlelight
 
 # Holiday Candlelight
 
-Join the Merced Symphony for our first Holiday Candlelight concert!  Nothing gets you into the holiday spirit like timeless winter classics played by our Symphony chamber orchestra.  From *What Child is This?* to some of your favorite holiday carols and heavenly solo singers, this is a concert not to miss!
+Join the Merced Symphony for our first Holiday Candlelight concert!  Nothing gets you into the holiday spirit like timeless winter classics played by our Symphony chamber orchestra.  From *Messiah* and *Alleluia* to some of your favorite holiday carols and heavenly solo singers, this is a concert not to miss!
 
 ### Details
 November 24, 2019 | 7:30pm<br />
