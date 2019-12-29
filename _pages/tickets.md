@@ -24,6 +24,7 @@ Tickets to Fundraisers may be purchased from any Board Member, or by phone from 
 
 ### Details
 - We have tiered tickets at several price points: $45/$35/$25 for adults.
+- Student tickets are $10 with valid ID.
 - All individual tickets will be available at the Merced Theatre Box office on or after September 1, 2019. 
 - Season Tickets can be purchased from MSA beginning in mid-August at a 17% discount. 
 - First time season ticket purchasers will receive a 30% discount on season tickets.
