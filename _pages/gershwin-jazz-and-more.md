@@ -6,20 +6,20 @@ title: Gershwin, Jazz & More!
 
 # Gershwin, Jazz & More!
 
-Legendary works of American jazz by George Gershwin, including *Rhapsody in Blue* performed by pianist Patrice Nelson and a *Medley of Gershwin Favorites* sung by soprano Jenni Samuelson!  This concert is sure to leave your fingers snapping and your spirit humming!
+Legendary works of American jazz by George Gershwin, including *Rhapsody in Blue* performed by pianist Patrice Stribling Nelson and a *Medley of Gershwin Favorites* sung by soprano Jenni Samuelson!  This concert is sure to leave your fingers snapping and your spirit humming!
 
 ### Details
 January 17, 2020 | 7:30pm<br />
 Merced Theatre
 
 ### Pieces
--	Rhapsody In Blue, George Gershwin (Patrice Nelson, piano)
+-	Rhapsody In Blue, George Gershwin (Patrice Stribling Nelson, piano)
 -	An American in Paris, George Gershwin (Jenni Samuelson, soprano)
 -	More to come!
 
-# Pianist Patrice Nelson
+# Pianist Patrice Stribling Nelson
 
-![Photograph of Patrice Nelson](/assets/images/patrice-s-nelson.jpg)
+![Photograph of Patrice Stribling Nelson](/assets/images/patrice-s-nelson.jpg)
 
 Patrice Stribling Nelson is a classical pianist who has appeared with symphony orchestras across the United States.  An award-winning veteran of professional and college theatre, Patrice has served as Music Director in theatres from California to New York, including **The New Daisy Theatre** on Beale Street in Memphis and the **Young Vic** in Baltimore.  A native of Merced, Patrice returned in 2005 to teach at Merced College and to open the Stribling Nelson Music Studio.  She is the Founding Director of the Merced Children’s Choir at Merced College, and established Merced’s first Musikgarten, a developmental program for newborns through five-year-olds, centered in music and movement.  Patrice and her husband, celebrated Merced musician, educator, and actor Curtis Nelson, retired to Pennsylvania in 2019.
 
