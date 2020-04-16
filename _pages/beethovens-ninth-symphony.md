@@ -10,7 +10,8 @@ The Merced Symphony closes our 62nd season with two momentous works: Beethovenâ€
 
 ### Details
 September 11, 2020 | 7:30pm<br />
-Merced Theatre
+Merced Theatre<br />
+<a href="https://mercedsymphony.org/season/april-concert-rescheduled-to-september-2020">Click here for information on rescheduled tickets.</a>
 
 ### Pieces
 -	*Concerto For Violin and Cello in A Minor*, Johannes Brahms (Cordula Merks, violin; Amos Yang, cello)
