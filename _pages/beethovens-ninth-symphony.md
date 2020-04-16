@@ -9,7 +9,7 @@ title: Beethoven’s Ninth Symphony
 The Merced Symphony closes our 62nd season with two momentous works: Beethoven’s grand *Symphony No. 9* and its *Ode to Joy* featuring four vocal soloists and a large chorus on the Merced Theater stage directed by Philip Smallwood!  Then Brahms’ *Double Concerto for Violin and Cello in A Minor* receives expert treatment by pianist Cordula Merks and cellist Amos Yang who join us from the San Francisco Symphony and the San Francisco Ballet.
 
 ### Details
-April 11, 2020 | 7:30pm<br />
+September 11, 2020 | 7:30pm<br />
 Merced Theatre
 
 ### Pieces
