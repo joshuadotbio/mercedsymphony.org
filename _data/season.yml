@@ -1,24 +1,28 @@
 - title: Auspicious Beginnings
-  date: October 5, 2019
-  time: 7:30pm
+  daymonth: Oct 5
+  year: 2019
+  time: 7:30pm at the Merced Theater
   url: "/season/auspicious-beginnings"
   class: done
   description: <em>Hebrides Overture</em>, Felix Mendelssohn - Heather Pinkham World Premiere <em>piano concerto</em> (Ralph van Raat, pianist) - <em>Symphony No. 1</em>, Ludwig van Beethoven
 - title: Holiday Candlelight
-  date: November 24, 2019
-  time: 7:30pm
+  daymonth: Nov 24
+  year: 2019
+  time: 7:30pm at the Merced Theater
   url: "/season/holiday-candlelight"
   class: done
   description: Holiday Carols & Winter Classics, including <em>Messiah</em>, <em>Four Seasons</em>, <em>Alleluia</em>, <em>First Noel</em>, and <em>Silent Night</em>. (Maya Kherani, soprano; Illana Thomas, violin)
 - title: Gershwin, Jazz & More!
-  date: January 17, 2020
-  time: 7:30pm
+  daymonth: Jan 17
+  year: 2020
+  time: 7:30pm at the Merced Theater
   url: "/season/gershwin-jazz-and-more"
   class: done
   description: Legendary works of American jazz by George Gershwin, including <em>Rhapsody in Blue</em> performed by pianist Patrice Stribling Nelson and a <em>Medley of Gershwin Favorites</em> sung by soprano Jenni Samuelson!
 - title: Beethoven’s Ninth Symphony
-  date: Postponed
-  time: 7:30pm
+  daymonth: Postponed
+  year: "—"
+  time: 7:30pm at the Merced Theater
   url: "/season/beethovens-ninth-symphony"
   class: done
   description: <em>Concerto For Violin and Cello in A Minor</em>, Johannes Brahms (Cordula Merks, violin; Amos Yang, cello) - <em>Symphony No. 9</em>, Ludwig van Beethoven

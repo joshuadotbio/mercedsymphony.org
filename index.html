@@ -24,15 +24,15 @@ layout: default
   <div class="event js-square hpad {% if event.class %}{{ event.class | prepend: 'event-' }}{% endif %}">
     <a class="event-date" href="{{ event.url }}">
       <div class="event-month">
-        <span>{{ event.date | date: "%b %d"}}</span>
+        <span>{{ event.daymonth}}</span>
       </div>
       <div class="event-year">
-        <span>{{ event.date | date: "%Y" }}</span>
+        <span>{{ event.year" }}</span>
       </div>
     </a>
     <div class="event-content">
       <h2><a class="sneaky" href="{{ event.url }}">{{ event.title }}</a></h2>
-      <p><small><a class="sneaky" href="{{ event.url }}">{{ event.time }} at the Merced Theater</a></small></p>
+      <p><small><a class="sneaky" href="{{ event.url }}">{{ event.time }}</a></small></p>
       <p>{{ event.description }}</p>
     </div>
   </div>

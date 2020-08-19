@@ -10,7 +10,6 @@ The Merced Symphony closes our 62nd season with two momentous works: Beethovenâ€
 
 ### Details
 POSTPONED Indefinitely Due to COVID<br />
-Merced Theatre<br />
 <a href="https://mercedsymphony.org/season/april-concert-rescheduled-to-september-2020">Click here for information on rescheduled tickets.</a>
 
 ### Pieces
