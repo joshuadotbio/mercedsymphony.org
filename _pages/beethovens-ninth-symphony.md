@@ -4,6 +4,14 @@ layout: page
 title: Beethoven’s Ninth Symphony
 ---
 
+# Beethoven’s Ninth Symphony Postponed!
+
+We regret that our _Beethoven’s Ninth Symphony_ must be indefinitely postponed.  Fear not!  Your Merced Symphony is collaborating with community partners to broadcast an exciting new performance on September 11, 2020 to all of Merced.  Please stay tuned for details!
+
+Tickets for the original April 2020 concert will be honored on the new date.
+
+<a class="button" href="/season/april-concert-rescheduled-to-september-2020">Ticket Information</a>
+
 # Beethoven’s Ninth Symphony
 
 The Merced Symphony closes our 62nd season with two momentous works: Beethoven’s grand *Symphony No. 9* and its *Ode to Joy* featuring four vocal soloists and a large chorus on the Merced Theater stage directed by Philip Smallwood!  Then Brahms’ *Double Concerto for Violin and Cello in A Minor* receives expert treatment by pianist Cordula Merks and cellist Amos Yang who join us from the San Francisco Symphony and the San Francisco Ballet.
