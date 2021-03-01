@@ -1,24 +1,24 @@
-- title: Auspicious Beginnings
-  daymonth: Oct 5
-  year: 2019
-  time: 7:30pm at the Merced Theater
-  url: "/season/auspicious-beginnings"
-  class: done
-  description: <em>Hebrides Overture</em>, Felix Mendelssohn - Heather Pinkham World Premiere <em>piano concerto</em> (Ralph van Raat, pianist) - <em>Symphony No. 1</em>, Ludwig van Beethoven
-- title: Holiday Candlelight
-  daymonth: Nov 24
-  year: 2019
-  time: 7:30pm at the Merced Theater
-  url: "/season/holiday-candlelight"
-  class: done
-  description: Holiday Carols & Winter Classics, including <em>Messiah</em>, <em>Four Seasons</em>, <em>Alleluia</em>, <em>First Noel</em>, and <em>Silent Night</em>. (Maya Kherani, soprano; Illana Thomas, violin)
-- title: Gershwin, Jazz & More!
-  daymonth: Jan 17
+- title: Back On Stage
+  daymonth: Sep&nbsp;11
   year: 2020
-  time: 7:30pm at the Merced Theater
-  url: "/season/gershwin-jazz-and-more"
+  time:
+  url: "/season/back-on-stage-2020"
   class: done
-  description: Legendary works of American jazz by George Gershwin, including <em>Rhapsody in Blue</em> performed by pianist Patrice Stribling Nelson and a <em>Medley of Gershwin Favorites</em> sung by soprano Jenni Samuelson!
+  description: Dvorak’s <em>“American” Quartet</em>; Haydn’s <em>G Major Quartet Op. 77 No. 1</em>; Elgar’s <em>Salut D’Amour</em>; Vivaldi’s <em>Autumn & Winter</em>; Bach’s <em>Arioso</em>; Massenet’s <em>Meditation from Thais</em>; Second and Third Movements of Tchaikovsky’s <em>Serenade for Strings</em> and the First Movement of Grieg Holburg’s <em>Suite</em>; blistering electronic violin solo by Matthew Szemela
+- title: Holiday Candlelight
+  daymonth: Dec&nbsp;20
+  year: 2020
+  time:
+  url: "/season/holiday-candlelight-2020"
+  class: done
+  description: Arcangelo Corelli, <em>Concerto grosso in G minor, Op. 6, No. 8, Christmas</em>; Isabella, <em>Bring a Torch</em>; Leontovych, <em>Carol of the Bells</em>; Adam, <em>O Holy Night</em>; Beethoven, <em>We Wish You A Merry Christmas</em>; <em>Ceremonial For Christmas Brass</em> (arr. Holcombe); Gruber, <em>Silent Night</em> (arr. Holcombe)
+- title: Pops Concert
+  daymonth: May&nbsp;05
+  year: 2021
+  time:
+  url: "/season/pops-concert-2021"
+  class: done
+  description: Max Richter’s Recomposed version of Vivaldi’s Four Seasons; Bach’s Largo from Sonata No. 3 by violin soloist Liana Berbue
 - title: Beethoven’s Ninth Symphony
   daymonth: Postponed
   year: "—"
