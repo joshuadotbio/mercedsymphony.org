@@ -17,12 +17,12 @@
   year: 2021
   time:
   url: "/season/pops-concert-2021"
-  class: done
+  class:
   description: Max Richter’s Recomposed version of Vivaldi’s Four Seasons; Bach’s Largo from Sonata No. 3 by violin soloist Liana Berbue
 - title: Beethoven’s Ninth Symphony
   daymonth: Postponed
   year: "—"
   time: POSTPONED Indefinitely Due to COVID
   url: "/season/beethovens-ninth-symphony"
-  class: done
+  class:
   description: <em>Concerto For Violin and Cello in A Minor</em>, Johannes Brahms (Cordula Merks, violin; Amos Yang, cello) - <em>Symphony No. 9</em>, Ludwig van Beethoven
