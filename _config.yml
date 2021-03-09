@@ -34,6 +34,7 @@ exclude:
   - '*.zsh'
   - '*.sublime-project'
   - '*.sublime-workspace'
+  - '.ruby-version'
 keep_files:
 sass:
   style: compressed
