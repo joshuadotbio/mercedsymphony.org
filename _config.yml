@@ -35,6 +35,7 @@ exclude:
   - '*.sublime-project'
   - '*.sublime-workspace'
   - '.ruby-version'
+  - '.node-version'
 keep_files:
 sass:
   style: compressed
