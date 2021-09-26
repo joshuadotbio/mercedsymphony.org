@@ -22,36 +22,75 @@ layout: default
   </div>
 </div>
 
-<div class="block concerts vpad">
-  <div class="upcoming hpad">
-    <h3>Upcoming Concert</h3>
-    <h1>Holiday Candlelight</h1>
+<div class="block concert vpad" id="season">
+  <div class="concert-content hpad">
+    <h3>NEXT CONCERT</h3>
+    <h1><em>Holiday Candlelight</em></h1>
     <p>
-      Join the Merced Symphony in our traditional and beloved Holiday Candlelight! Nothing gets one into the holiday mood like some timeless classics played by a symphony chamber orchestra. Be serenaded as we perform concert favorites that will get you in the holiday mood. Lyric Coloratura soprano Nikki Einfeld will be our soloist for this evening of holiday classics. Ms. Einfeld is a former Adler Fellow and Merola Alumnus with the San Francisco Opera and has performed across North America with some of the most notable orchestras.
+      <strong>
+        November 21, 2021 at 7:30pm<br />
+        At the Merced Theatre<br />
+        Doors open at 6:30pm
+      </strong>
+    </p>
+    <p>
+      Join the Merced Symphony in our traditional and beloved <em>Holiday Candlelight</em>! Nothing gets one into the holiday mood like some timeless classics played by a symphony chamber orchestra. Be serenaded as we perform concert favorites that will get you in the holiday mood. Lyric Coloratura soprano Nikki Einfeld will be our soloist for this evening of holiday classics. Ms. Einfeld is a former Adler Fellow and Merola Alumnus with the San Francisco Opera and has performed across North America with some of the most notable orchestras.
     </p>
   </div>
-  <div class="next hpad">
+  <div class="concert-image hpad">
+    <p>
+      <img src="/assets/images/2021-holiday-candlelight-promo.png"/>
+    </p>
   </div>
 </div>
 
-<div class="block schedule" id="season">
-  {% for event in site.data.season %}
-  <div class="event js-square hpad {% if event.class %}{{ event.class | prepend: 'event-' }}{% endif %}">
-    <a class="event-date" href="{{ event.url }}">
-      <div class="event-month">
-        <span>{{ event.daymonth}}</span>
-      </div>
-      <div class="event-year">
-        <span>{{ event.year }}</span>
-      </div>
-    </a>
-    <div class="event-content">
-      <h2><a class="sneaky" href="{{ event.url }}">{{ event.title }}</a></h2>
-      <p><small><a class="sneaky" href="{{ event.url }}">{{ event.time }}</a></small></p>
-      <p>{{ event.description }}</p>
-    </div>
+<div class="block concert">
+  <div class="concert-image-left hpad">
+    <p>
+      <img src="/assets/images/2022-film-to-stage-promo.png"/>
+    </p>
   </div>
-  {% endfor %}
+  <div class="concert-content hpad">
+    <h3>Upcoming Concert</h3>
+    <h1><em>From Film to Stage!</em></h1>
+    <p>
+      <strong>
+        January 21, 2022 at 7:30pm<br />
+        At the Merced Theatre<br />
+        Doors open at 6:30pm
+      </strong>
+    </p>
+    <p>
+      Some of the greatest orchestral music has been found in movie theaters as composers like John Williams, Bernard Hermann, and Hans Zimmer all were taught and influenced by classical composers. Join the Merced Symphony in a classic pops concert that will thrill and excite you in the theater – with some of the most famous movie music written for the screen!
+    </p>
+  </div>
+  <div class="concert-image-right hpad">
+    <p>
+      <img src="/assets/images/2022-film-to-stage-promo.png"/>
+    </p>
+  </div>
+</div>
+
+<div class="block concert vpad">
+  <div class="concert-content hpad">
+    <h3>Upcoming Concert</h3>
+    <h1><em>Season Finale</em></h1>
+    <p>
+      <strong>
+        May 21, 2022 at 7:30pm<br />
+        At Central Presbyterian Church<br />
+        Doors open at 6:30pm
+      </strong>
+    </p>
+    <p>
+      We close out the 64th Anniversary season with two momentous works, Camille Saint-Saëns' grand <em>Organ Symphony</em> and the Brahms <em>Double Concerto for Violin and Cello</em>. Hear this immense, grand and sweeping symphony of Saint-Saëns as we close out the season with one of the fullest orchestras on stage. Soloists Cordula Merks and Amos Yang come from the San Francisco Symphony and San Francisco Ballet and perform the fiendishly difficult but beautiful Brahms <em>Double Concerto</em>. An exciting way to finish out the year, this will be a concert, and a season, not to miss!
+    </p>
+  </div>
+  <div class="concert-image hpad">
+    <p>
+      <img src="/assets/images/2022-season-finale-promo.png"/>
+    </p>
+  </div>
 </div>
 
 <div class="block director vpad">

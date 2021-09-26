@@ -432,27 +432,53 @@ article {
   }
 }
 
-.concerts {
+.concert {
   background-color: $white;
 }
 
-.upcoming {
+.concert-content {
   width: 100%;
 
   @include iPadProWidth {
     width: span(1 of 2);
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
   }
 }
 
-.next {
+.concert-image {
   width: 100%;
+  margin-top: 2em;
 
   @include iPadProWidth {
     width: span(1 of 2);
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
+    margin-top: 0;
+  }
+}
+
+.concert-image-left {
+  width: 100%;
+  display: none;
+
+  @include iPadProWidth {
+    width: span(1 of 2);
+    display: table-cell;
+    vertical-align: top;
+    margin-top: 0;
+  }
+}
+
+.concert-image-right {
+  width: 100%;
+  margin-top: 2em;
+
+  @include iPadProWidth {
+    width: span(1 of 2);
+    display: none;
+    vertical-align: top;
+    margin-top: 0;
   }
 }
 
