@@ -22,6 +22,18 @@ layout: default
   </div>
 </div>
 
+<div class="block concerts vpad">
+  <div class="upcoming hpad">
+    <h3>Upcoming Concert</h3>
+    <h1>Holiday Candlelight</h1>
+    <p>
+      Join the Merced Symphony in our traditional and beloved Holiday Candlelight! Nothing gets one into the holiday mood like some timeless classics played by a symphony chamber orchestra. Be serenaded as we perform concert favorites that will get you in the holiday mood. Lyric Coloratura soprano Nikki Einfeld will be our soloist for this evening of holiday classics. Ms. Einfeld is a former Adler Fellow and Merola Alumnus with the San Francisco Opera and has performed across North America with some of the most notable orchestras.
+    </p>
+  </div>
+  <div class="next hpad">
+  </div>
+</div>
+
 <div class="block schedule" id="season">
   {% for event in site.data.season %}
   <div class="event js-square hpad {% if event.class %}{{ event.class | prepend: 'event-' }}{% endif %}">

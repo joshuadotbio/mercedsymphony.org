@@ -432,6 +432,30 @@ article {
   }
 }
 
+.concerts {
+  background-color: $white;
+}
+
+.upcoming {
+  width: 100%;
+
+  @include iPadProWidth {
+    width: span(1 of 2);
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.next {
+  width: 100%;
+
+  @include iPadProWidth {
+    width: span(1 of 2);
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
 .schedule {
   background-color: $white;
 }
