@@ -8,9 +8,13 @@ title: Donate to the Symphony
 
 Thank you for supporting the Merced Symphony. Without the generous support of many individuals, foundations, and corporations, the Symphony’s artistic and educational programs would not be possible.
 
-<p><a class="button" href="/assets/documents/Donation Cards.pdf">Download Donation Card</a></p>
+To make an online donation through PayPal with a credit or debit card, please click the button below.
 
-Please enclose your check with the donation card and mail it to the address below.
+<p class="text-centered"><a class="button" href="https://www.paypal.com/biz/fund?id=DE3EPYCLG97FN">Donate with Paypal</a></p>
+
+---
+
+Alternatively, you may send a donation by check using our downloadable <a href="/assets/documents/Donation Cards.pdf">donation card</a>. Please enclose your check with the donation card and mail it to the address below.
 
 Merced Symphony Association<br />
 PO Box 894<br />
